@@ -1,0 +1,71 @@
+.header-intro {
+    width: 100%;
+    height: 500px;
+/*    background:url("images/bg.jpg") center no-repeat;
+    background-size: cover;*/
+    background-color: #020024;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+
+.header-inner{
+    display: flex;
+    flex-direction: column;
+}
+.header-logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* Nav
+===================*/
+.nav {
+    display: flex;
+    margin-top: 325px;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.nav__link {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 9px 26px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    border-radius: 2px;
+    background-color: #fff;
+    color: #02094c;
+    transition: all 0.1s ease-in 0.1s;
+}
+.hamburger-menu {
+display: none;
+  position: absolute;
+  background-color: #0000;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin-top: 60px;
+}
+@media (max-width: 1300px) {
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+    }
+ 
+
+}
